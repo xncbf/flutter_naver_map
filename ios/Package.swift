@@ -14,8 +14,8 @@ let package = Package(
     ],
     dependencies: [
         // Naver Map 의존성 추가
-        .package(url: "https://github.com/navermaps/SPM-NMapsMap.git", from: "3.19.0"),
-        .package(url: "https://github.com/navermaps/SPM-NMapsGeometry.git", from: "1.0.2")
+        .package(url: "https://github.com/xncbf/SPM-NMapsMap.git", from: "3.20.0"),
+        .package(url: "https://github.com/xncbf/SPM-NMapsGeometry.git", from: "1.0.2")
     ],
     targets: [
         .target(
